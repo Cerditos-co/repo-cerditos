@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Operaciones</title>
 </head>
 <body>
     <form class="formulario" action="">
-        <input type="number" id="num1" placeholder="Digíte un número">
-        <p>+</p>
-        <input type="number" id="num2" placeholder="Digíte otro número">
-        <input type="submit" class="btn-enviar" value="Sumar">
+        <div class="input">
+            <input type="number" id="num1" placeholder="Digíte un número">
+            <p>+/-</p>
+            <input type="number" id="num2" placeholder="Digíte otro número">
+        </div>
+        <div class="submit">
+            <input type="submit" class="btn-restar" value="Restar">
+            <input type="submit" class="btn-sumar" value="Sumar">
+        </div>
+
 
         <p id="resultado"></p>
     </form>
